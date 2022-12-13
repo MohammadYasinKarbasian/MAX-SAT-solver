@@ -32,7 +32,7 @@ while(1):
         if value>current_fitness
     ]
     if len(good_neighbors) == 0:
-        print(f'final solution found with fitness = {current_fitness}\nvalues: ')
+        print(f'Final solution found with fitness = {current_fitness}\nvalues: ')
         for iterator in range(variable_num):
             print(f'X{iterator}={candidate[iterator]}',end=' ')
         print('')
