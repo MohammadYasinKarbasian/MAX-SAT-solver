@@ -43,7 +43,13 @@ final solution found with fitness = 79
 values: 
 X0=False X1=True X2=True X3=True X4=True X5=False X6=False X7=False X8=True X9=True X10=False X11=False X12=False X13=True X14=True X15=True X16=True X17=False X18=False X19=False 
 ```
+```
+yasin@Hunter ~/Documents/Code/iut/ai/github/MAX-SAT-solver$ python3 tabu_search.py                                                               
+final solution found with fitness = 80
+values: 
+X0=False X1=True X2=False X3=True X4=True X5=True X6=False X7=False X8=True X9=True X10=False X11=False X12=False X13=True X14=True X15=True X16=False X17=False X18=True X19=False 
 
+```
 ### 3- Simulated annealing
 Simulated annealing (SA) is a probabilistic technique for approximating the global optimum of a given function. Specifically, it is a metaheuristic to approximate global optimization in a large search space for an optimization problem. It is often used when the search space is discrete (for example the traveling salesman problem, the boolean satisfiability problem, protein structure prediction, and job-shop scheduling). For problems where finding an approximate global optimum is more important than finding a precise local optimum in a fixed amount of time, simulated annealing may be preferable to exact algorithms such as gradient descent or branch and bound. 
 The name of the algorithm comes from annealing in metallurgy, a technique involving the heating and controlled cooling of a material to alter its physical properties. 
